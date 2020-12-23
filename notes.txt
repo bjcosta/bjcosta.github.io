@@ -1,3 +1,17 @@
 Google analytics: 
 https://analytics.google.com/analytics/web/#/a177071585w245161663p228037452/admin/tracking/tracking-code/
 https://analytics.google.com/analytics/web/#/report-home/a177071585w245161663p228037452
+
+Installation of Jekyll on windows for testing:
+
+https://jekyllrb.com/docs/installation/
+https://jekyllrb.com/docs/installation/windows/
+
+Install RubyDevKit https://rubyinstaller.org/downloads/  2.6.6-1 x64
+gem install bundler
+
+cd bjcosta.github.io
+bundle install
+bundle exec Jekyll serve
+bundle exec Jekyll serve  --trace --verbose
+
